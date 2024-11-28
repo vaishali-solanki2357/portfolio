@@ -1,0 +1,113 @@
+*{
+    color: brown;
+    /* background-color: antiquewhite; */
+    font-family: "Arial (sans-serif)", "Verdana (sans-serif)", "Tahoma (sans-serif)";
+    font-size: 40px;
+}
+/* universal selector */
+h2{
+    color: aquamarine;
+}
+/* element selector */
+#el1{
+    color: blueviolet;
+}
+/* id selector(preferred) */
+.head{
+    background-color: black;
+}
+/* class selector */
+#xyz{
+    color: rgb(44, 186, 25);
+}
+nav,.head,#xyz{
+    /* background-color: rgb(190, 60, 226); */
+    /* background-image: url(/image\ copy.png); */
+}
+img{
+    margin: 10px 20px 11px 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 22px;
+    margin-right: 11px;
+    padding-left: 11px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 22px;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-left: 11px;
+    border-right: 11px;
+    position: relative;
+    border-style: dotted;
+  left: 30px;
+  right: 30px;
+    
+}
+footer{
+ 
+    position: sticky;
+    /* position: fixed; */
+    text-align: center;
+    bottom: 0;
+    
+  
+}
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+
+header{
+    border: 3px solid;
+    /* position: absolute; */
+    left: 30px;
+    /* z-index: -2; */
+    
+}
+
+header{
+    position: relative;
+    left: 30px
+}
+@media only screen and (max-width: 600px){
+    body {
+        background-color: #73AD21;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
